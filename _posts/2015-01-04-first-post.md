@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What are cities with the most mexican food Restaurants in the US?
-image: /img/unostacosuwu.jpeg
+image: /img/unostacosuwu.jpg
 published: true
 ---
 
