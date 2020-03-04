@@ -12,7 +12,9 @@ have to most mexican restaurants in the USA, *in my case i love mexican food, so
 i sourced a dataset that had over 77,000 records of restaurants across the US, that sold mexican food, so i narrowed down my search
 and here are the winners.
 
-##These graphs describe the top 10 cities and the quantity of restaurants in each of them
+****These graphs describe the top 10 cities and the quantity of restaurants in each of them
+
+
 
 
 ![barchart.png]({{site.baseurl}}/img/barchart.png)   
