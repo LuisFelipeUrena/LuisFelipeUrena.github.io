@@ -14,4 +14,6 @@ and here are the winners.
 
 
 ![barchart.png]({{site.baseurl}}/img/barchart.png)
+
+
 ![scatterplot.png]({{site.baseurl}}/img/scatterplot.png)
