@@ -24,7 +24,7 @@ and here are the winners.
 ![scatterplot.png]({{site.baseurl}}/img/scatterplot.png)
 
 So we got:
-**-San diego CA, with 1,924 restaurants WOW
+-San diego CA, with 1,924 restaurants WOW
 -Los Angeles CA, with 1,603
 -Chicago IL, with 1,186
 -San Francisco CA, with 1,120
