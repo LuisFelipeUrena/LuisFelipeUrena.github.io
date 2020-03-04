@@ -2,6 +2,7 @@
 layout: post
 title: What are cities with the most mexican food Restaurants in the US?
 image: /img/hello_world.jpeg
+published: true
 ---
 
 Americans love to eat out, on recent surveys 56% of the population dines at a restaurant, get take out ot have a meal
@@ -10,4 +11,7 @@ have to most mexican restaurants in the USA, *in my case i love mexican food, so
 
 i sourced a dataset that had over 77,000 records of restaurants across the US, that sold mexican food, so i narrowed down my search
 and here are the winners.
-[bar](/img/barchart.png)
+
+
+![barchart.png]({{site.baseurl}}/img/barchart.png)
+![scatterplot.png]({{site.baseurl}}/img/scatterplot.png)
