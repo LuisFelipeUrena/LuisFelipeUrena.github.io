@@ -13,7 +13,7 @@ i sourced a dataset that had over 77,000 records of restaurants across the US, t
 and here are the winners.
 
 
-![barchart.png]({{site.baseurl}}/img/barchart.png)
+![barchart.png]({{site.baseurl}}/img/barchart.png)   ![scatterplot.png]({{site.baseurl}}/img/scatterplot.png)
 
 
-![scatterplot.png]({{site.baseurl}}/img/scatterplot.png)
+
