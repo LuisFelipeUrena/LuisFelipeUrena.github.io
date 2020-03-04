@@ -24,13 +24,14 @@ and here are the winners.
 ![scatterplot.png]({{site.baseurl}}/img/scatterplot.png)
 
 So we got:
--San diego CA, with 1,924 restaurants WOW
--Los Angeles CA, with 1,603
--Chicago IL, with 1,186
--San Francisco CA, with 1,120
--New York NY, with 1,085
--Houston TX, with 838
--Brooklyn NY with 711
--Las Vegas NV, with 653
--Portland ME, with 571 (i didn't expect this city to be top 10!)
--Phoenix AZ, in the last place with 525**
+- San diego CA, with 1,924 restaurants WOW
+- Los Angeles CA, with 1,603
+- Chicago IL, with 1,186
+- San Francisco CA, with 1,120
+- New York NY, with 1,085
+- Houston TX, with 838
+- Brooklyn NY with 711
+- Las Vegas NV, with 653
+- Portland ME, with 571 (i didn't expect this city to be top 10!)
+- Phoenix AZ, in the last place with 525**
+
