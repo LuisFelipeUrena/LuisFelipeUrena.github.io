@@ -5,8 +5,8 @@ image: /img/unostacosuwu.jpg
 published: true
 ---
 
-**Americans love to eat out**, [on recent surveys 56% of the population dines at a restaurant, get take out or have a meal](https://www.zagat.com/b/2018-dining-trends-survey-highest-tippers-social-media-habits-and-more)
-delivered 2 to 3 times a week, since i started my new education in data science i asked myself, what are the cities in the US that
+**Americans love to eat out**, [on recent surveys,the results showed that 56% of the population dines at a restaurant, get take out or have a meal](https://www.zagat.com/b/2018-dining-trends-survey-highest-tippers-social-media-habits-and-more)
+[delivered 2 to 3 times a week](https://www.zagat.com/b/2018-dining-trends-survey-highest-tippers-social-media-habits-and-more), since i started my new education in data science i asked myself, what are the cities in the US that
 have the most mexican restaurants , *in my case i love mexican food, so it was something i wanted to dig into*.
 
 i sourced a dataset that has over 77,000 records of restaurants across the US(in case you want to see the dataset you can find it [here](https://data.world/datafiniti/restaurants-burritos-and-tacos)), that sold mexican food, so i narrowed down my search
