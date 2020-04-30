@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: True
 title: can-we-improve-a-trading-bot?.md
 date: 2020-1-05
 ---
