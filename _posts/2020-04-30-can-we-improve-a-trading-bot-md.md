@@ -6,6 +6,8 @@ date: 2020-1-05
 ---
 ## Can We Improve a Trading Bot Using Machine Learning?
 
+![robot.png]({{site.baseurl}}/img/robot.png)
+
 
 **Trading Bots, you might have heard this term at least once.**
 
