@@ -156,7 +156,7 @@ i also did a Partial Dependence plot just to vizualize the correlation with our 
 
 ![pdp_plot.png]({{site.baseurl}}/img/pdp_plot.png)
 
-Upon further investigating why this feature was so important i realized that this feature should not be here, when a trader opens a position, whether is buying or selling, we would not know with certainty what the close price of this trade is going to be, because of this, the model contains leakeage.
+Upon further investigating why this feature was so important i realized that this feature should not be here, when a trader opens a position, whether is buying or selling, we would not know with certainty what the close price is going to be. of course you can provide the desired close price and get a prediction on how likely it would be that your trade is profitable if it closes at that desired price, but anyways i think i can do better!
 
 Now, that did not end my investigation there, i already invested so much time into it, so decided to go an extra mile: creating another model that can predict an aproximate close price for any open trade, and use that into our first model.
     
