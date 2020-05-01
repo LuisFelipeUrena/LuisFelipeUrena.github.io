@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: can-we-improve-a-trading-bot?.md
+title: Can we Improve a Trading Bot with ML?
 date: 2020-1-05
 ---
 ## Can We Improve a Trading Bot Using Machine Learning?
