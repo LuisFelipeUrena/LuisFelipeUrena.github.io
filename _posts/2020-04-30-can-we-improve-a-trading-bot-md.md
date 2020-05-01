@@ -44,6 +44,30 @@ But did I give up? CLARO QUE NO!.
 
 first i had to make this a classification problem, so made a new feature that would tell me whether a trade was lost or won, i've enclosed my data cleaning process on this function below:
 
+    def wrangle(x):
+	    x = x.copy()
+	    #removing spaces and upper cases
+	    x.columns = x.columns.str.lower()
+	    x.columns = x.columns.str.replace(' ','_')
+
+	    #engeneering a few features
+	    x['win/loss'] = x['profit'] > 0 #this feature will determine if there is a winning or losing trade
+	    features_ = x.loc[:,'sl':'open_price'] #this variable subsets my main columns openprice, stoploss and take profit
+	    x['mean'] = features_.mean(axis=1)
+	    x['med'] = features_.median(axis=1)
+	    x['std'] = features_.std(axis=1)
+	    multiplier = 0.0001
+
+	    x['risk_reward'] = round((x['sl']-x['tp'])/multiplier)
+
+	    #dropping some of the features that cause leakage
+	    x = x.drop(labels=['profit','pips','change_%',"duration_(dd:hh:mm:ss)"],axis=1)
+
+	    #setting columns as datetime
+	    x['open_date'] = pd.to_datetime(x['open_date'])
+	    x['close_date'] = pd.to_datetime(x['close_date'])
+	    return x
+
 
 for my data exploration, i used an automated tool called Dtale, recommended to me by one of my classmates
 you can check it out [here!](https://pypi.org/project/dtale/).
@@ -73,7 +97,7 @@ i have decided to do a time based split in this problem, since we want to basica
 
 
 Here we will start to make a baseline model to try to beat it with a better model. the error metric i chose
-for this problem is **ROC AUC(Recieved Operator Characteristic Area Under the Curve)**, since this metric actually aims to reduce false positive rates and increase true positives, in trading you definetly want to make the Right decision most of the time.
+for this problem is **ROC AUC(Reciever Operating Characteristic Area Under the Curve)**, since this metric actually aims to reduce false positive rates and increase true positives, in trading you definetly want to make the Right decision most of the time.
 ~~~
 # now lets subset our data into x and y
 # here is our target and features for our classification problem
