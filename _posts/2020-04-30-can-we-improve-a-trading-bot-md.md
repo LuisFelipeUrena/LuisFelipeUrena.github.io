@@ -1,6 +1,6 @@
 ---
 layout: post
-published: True
+published: true
 title: can-we-improve-a-trading-bot?.md
 date: 2020-1-05
 ---
@@ -144,7 +144,26 @@ Now, that did not end my investigation there, i already invested so much time in
     X_test = test[features]
     y_test = test[target]
     
-Here i decided to make a Ridge Regression model to try and predict our approximate closing price, i tested a couple of models and actually this was the one that had the best results, for this one problem i used Mean Absolute Error as the evaluation metric since it's a metric that can predict the most minimal change in price, in the case of currency trading, Pips(Percentage in points), is the main metric you go for when measuring your profits or losses. More information on pips [here](https://en.wikipedia.org/wiki/Percentage_in_point)    
+Here i decided to make a Ridge Regression model to try and predict our approximate closing price, i tested a couple of models and actually this was the one that had the best results, for this one problem i used Mean Absolute Error as the evaluation metric since it's a metric that can predict the most minimal change in price, in the case of currency trading, Pips(Percentage in points), is the main metric you go for when measuring your profits or losses. More information on pips [here](https://en.wikipedia.org/wiki/Percentage_in_point)
 
+    #this is the pipeline we are going to use
+    pipeline = make_pipeline(
+        ce.BinaryEncoder(),
+        Ridge()
+    )
+    # then let's fit our model
+    pipeline.fit(X_train,y_train)
+    
+    #and the Mean absolute error is...
+    from sklearn.metrics import mean_absolute_error
+    mean_absolute_error(y_pred,y_test)
+    >>>0.004875578794760977
+    
+So the Mean absolute error would be around 48 pips, i would like something a little bit more accurate but i will need a more sensitive model to try and get most of the minimal variance in price.
 
+## Conclusion
+This proyect has really made me feel proud because this problem that i came accross is not the typical problem you see in class since you have to have a general understanding of trading and maybe some of the general rules in Data Science might not apply in this problem to achieve the result i want to get, but anyways, when i think about it, being able to do this much with this little amount of data it's definetly an acomplishment for me.
 
+i have not given up on this and i will update this post with more information in the future, i will upload my notebook to github so you can check it out too.
+
+Thank you for making it this far!
