@@ -29,6 +29,7 @@ Let's say there are 50 people in this street altogether, 20 are riding a motorcy
 ### let's get the probability of a Thief being in a motorcycle:
 
 **P(Thief | riding a motorcycle) = 3 / 20**
+
 **P(Thief | riding a motorcycle) = 0.15** 
 
 The 0.15 value that we got is what is called a Probability, this is a guess that we made based on the estimations of the amount of potential thieves given that they are riding a motorcycle.
@@ -36,6 +37,7 @@ The 0.15 value that we got is what is called a Probability, this is a guess that
 ### Now let's do the same for people who are not in a motorcycle:
 
 **P(Thief | Not in a Motorcycle) = 1 / 30**
+
 **P(Thief | Not in a Motorcycle) = 0.03**
 
 So in this case the Probability for a person to be a thief is 0.03 if they are not in a motorcycle.
@@ -43,13 +45,17 @@ So in this case the Probability for a person to be a thief is 0.03 if they are n
 now let's calculate what is called the Prior Probability, this is a value of a person being a thief in a motorcycle or not taking in consideration the total amount of possible thieves in the sample size.
 
 **P(In a Motorcycle) = 3 / 3 + 1**
+
 **P(In a Motorcycle) = 3 / 4**
+
 **P(In a Motorcycle) = 0.75**
 
 Prior Probability of a thief on a motorcycle is 0.75, we get this number by dividing the number of thieves in a motorcycle by the sum of the number of thieves in a motorcycle and the ones that ***were not*** in one. We do the same for the opposite case.
 
 **P(Not in a Motorcycle) = 1 / 1 + 3**
+
 **P(Not in a Motorcycle) = 1 / 4**
+
 **P(Not in a Motorcycle) = 0.25**
 
 So now we need to get the initial probabilities and the Prior probabilities and multiply everything and see what we get...
@@ -62,7 +68,9 @@ So now we need to get the initial probabilities and the Prior probabilities and 
 
 **0.15 X 0.75 =0.11**
 
+
 ***-probability of a thief NOT being in a motorcycle multiplied by the Prior Probability.***
+
 
 **P(Thief | Not in a Motorcycle) = 0.03**
 
