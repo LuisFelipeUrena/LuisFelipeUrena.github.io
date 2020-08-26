@@ -1,8 +1,4 @@
----
-layout: post
-published: true
-title: naive-bayes-simply-explained
----
+
 ---
 layout: post
 published: true
