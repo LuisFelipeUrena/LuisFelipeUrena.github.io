@@ -1,9 +1,8 @@
-
 ---
 layout: post
 published: true
-title: Naive Bayes Classifier, Simply explained
-date: 2020-08-26
+title: Naive Bayes Classifer, Simply explained
+date: 2020-8-26
 ---
 
 ## Naive Bayes Classifier, Simply explained!
