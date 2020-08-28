@@ -13,9 +13,9 @@ date: 2020-8-26
 
 Bayes Theorem and Bayesian statistics is one of the things that i became the most interested in when i first embarked in my Data Science journey early this year, the basics of the Bayes statistics in a nutshell is the fact that everything is the way it is for a reason, and not just because the mean of *x* is 158. Let's take a look at what Bayes Theorem actually is about:
 
-**P(A|B) = A/A+B**
+**P(A|B) = P(B|A) * P(A) / P(B)**
 
-To break it down, the *probability* of *A* (a being the Event in question) given *B* (the evidence of the event) divided by *A + B*.
+To break it down, the *probability* of *A* (a being the Event in question) given *B* (the evidence of the event) is Equal to the Probability of *B* given *A* times the Prior Probability of *A* divided by the Prior Probability of *B*.
 
 The way i like to understand stuff is by putting it in terms that i am familiar with, I'll give you an example and then you can make it your own... i hope.
 
